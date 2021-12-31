@@ -41,7 +41,7 @@ function setup() {
 	ground = new Ground(width/2,600,width,20);
 
   //create launcher with stone as bodyA
-  launcher = new Launcher(stone.body,{x:235,y:420})
+  launcher = new Launcher(stone.bodyA,{x:235,y:420})
 
 	Engine.run(engine);
 }
